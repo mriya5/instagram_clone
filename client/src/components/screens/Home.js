@@ -137,7 +137,7 @@ return(
                         <img src={item.photo} alt=""/>
                     </div>
                     <div className="card-content">
-                        <i className="material-icons" style={{color:"red"}}>favorite</i>
+                        <i className="material-icons" style={{color:"red"}}>favourite</i>
                         {item.likes.includes(state._id)
                         ? <i className="material-icons"
                         onClick={()=>{unlikePost(item._id)}}>thumb_down</i>
